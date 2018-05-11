@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Assignment 2 Pizza Website">
+	  <meta name="keywords" content="pizza website, moddern design">
+  	<meta name="author" content="Adrian Jozwiak">
+    <title>Adrian's Pizza | Order</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Adrian's</span> Pizza</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="current"><a href="order.html">Order</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Pizza Ordering</h1>
+          <ul id="services">
+            <li>
+              <h3>Chicken & Bacon</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            </li>
+            <li>
+              <h3>American Hot</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            </li>
+            <li>
+              <h3>Havaiian</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Create Your Order</h3>
+            <form class="order">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+                  <p>Please Select A Size</p>
+  						<div>
+                <form action="/action_page.php">
+                  <select name="size">
+                    <option value="small">Small £5.00</option>
+                    <option value="Medium">Medium £7.50</option>
+                    <option value="Large">Large £10.00</option>
+                    <option value="X-Large">X-Large £12.50</option>
+                  </select>
+                  <br><br>
+
+                </form>
+
+                <form>
+                  <p>Please select one or more toppings.</p>
+                  <input type="checkbox" name="topping1" value="Cheese"> Cheese £0.20<br>
+                  <input type="checkbox" name="topping2" value="Mushrooms"> Mushrooms £0.40<br>
+                  <input type="checkbox" name="topping3" value="Ham"> Ham £0.50<br>
+                  <input type="checkbox" name="topping4" value="Anchovies"> Anchovies £0.60<br>
+                </form>
+
+                <form>
+                  <p>Please select any additional extras</p>
+                  <input type="radio" name="extras1" value="Chips" checked> Chips £1.50<br>
+                  <input type="radio" name="extras2" value="GB"> Garlic Bread £2.00<br>
+                  <br><br>
+
+                  <div>
+                    <label>Please enter your postcode</label><br>
+                    <input type="text" placeholder="Postcode">
+                  </div>
+
+                  <div>
+                    <label>Please enter your Street Name and House Number</label><br>
+                    <input type="text" placeholder="Street Name and House Number">
+                  </div>
+                  <br><br>
+                  <Button type="reset">Reset</button>
+                  <button type="button" onclick="alert('Order Has Been Placed!')">Complete!</button>
+            </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Phone Number: 0000000</p>
+      <p>Email:adrianspizza@yahoo.co.uk</p>
+      <br>
+      <p>Adrian's Pizza, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>
